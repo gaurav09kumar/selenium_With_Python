@@ -7,10 +7,10 @@ from selenium import webdriver
 
 # set the path for chrome
 # (For IE & Firefox replace webdriver.Chrome with webdriver.IE & webdriver.Firefox, change executable path accordingly)
-driver = webdriver.Chrome(executable_path="C:/Users/kumar/Downloads/chromedriver_win32(1)/chromedriver.exe")
+driver = webdriver.Chrome(executable_path="C:/Users/Gaurav Kumar Rai/Downloads/chromedriver_win32/chromedriver.exe")
 
 # enter the URL to open the page in browser
-driver.get("https://www.facebook.com")
+driver.get("https://www.orangehrm.com")
 
 # get title of page
 print("Title of the page is : "+driver.title)
